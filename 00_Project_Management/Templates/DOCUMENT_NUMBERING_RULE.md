@@ -11,17 +11,24 @@
 
 ## Scheme
 
-All documents follow the numbering pattern:
+Layer documents follow the numbering pattern:
 
 ```
-FRKP-[CATEGORY]-[SEQUENCE]
+[PREFIX]-[SEQUENCE]_[TITLE].md
+```
+
+Project-management governance documents may use:
+
+```
+FRKP-[CATEGORY]-[SEQUENCE]_[TITLE].md
 ```
 
 | Component | Description | Example |
 |---|---|---|
-| FRKP | Fixed project prefix | FRKP |
-| CATEGORY | 3–4 letter category code | KB, VOL, FML, GLOSS |
-| SEQUENCE | Zero-padded 4-digit number | 0001 |
+| PREFIX | Layer prefix | RL, KB, AN, FC, MF, IMP, ARCH, BUNDLE |
+| CATEGORY | Governance category code when using `FRKP-` | DNR, GOV, RMAP |
+| SEQUENCE | Zero-padded sequence number | 001 |
+| TITLE | Uppercase descriptive title | FINANCIAL_RISK_OVERVIEW |
 
 ## Category Codes
 
@@ -38,21 +45,25 @@ FRKP-[CATEGORY]-[SEQUENCE]
 | VP | 00 | Version policy |
 | RCHK | 00/Reviews | Review checklist |
 | GOV | 00/Governance | Governance document |
-| REF | 01 | Reference entry |
+| RL | 01 | Reference Library entry |
 | KB | 02 | Knowledge Base article |
-| FML | 03 | Formula catalog entry |
-| GLOSS | 04 | Glossary term |
-| VOL | 05 | Volume |
-| VOLCH | 05 | Volume chapter |
-| ARCH | 06 | Architecture document |
-| APX | 07 | Appendix entry |
+| AN | 03 | Analysis document |
+| FC | 04 | Formula Catalog entry |
+| MF | 05 | Mathematical Foundation document |
+| IMP | 06 | Implementation Guide document |
+| ARCH | 07 | Architecture document |
+| BUNDLE | 08 | Bundle review document |
 | AST | 09 | Asset |
+| GLOSS | 10 | Glossary term |
+| VOL | 11 | Volume |
+| VOLCH | 11 | Volume chapter |
+| APX | 12 | Appendix entry |
 
 ## Version Numbering in Filename
 For documents with multiple versions, append `_v{major}.{minor}.{patch}`:
 
 ```
-FRKP-KB-0001_v1.0.0.md
+KB-201_FINANCIAL_RISK_OVERVIEW_v1.0.0.md
 ```
 
 ## Change History

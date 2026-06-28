@@ -39,8 +39,8 @@ yarn-error.log*
 .stylelintcache
 
 # ── Generated output ─────────────────────────────────────
-08_Output/*
-!08_Output/README.md
+13_Output/*
+!13_Output/README.md
 
 # ── Build / Site generation ──────────────────────────────
 docs/_site/
