@@ -1,4 +1,9 @@
-# 13 — Output
+# 13 — Output
+
+
+
+
+
 
 <!-- FRKP-NAV-START -->
 [Financial Risk Knowledge Platform](../README.md) > [Home](../README.md) > [13_Output](README.md)
@@ -55,3 +60,8 @@ Generated output from the FRKP — compiled PDFs, HTML site builds, rendered dia
 |---|---|
 | All folders | Output mirrors the source structure; content in each folder may have generated artifacts here. |
 | .gitignore | Entire 13_Output is excluded from version control. |
+
+## Releases
+
+- [FRKP Release Notes v1.0](Releases/FRKP_RELEASE_NOTES_v1.0.md)
+- [Change Log](Releases/CHANGELOG.md)
