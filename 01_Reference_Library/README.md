@@ -29,6 +29,7 @@
 - [BUNDLE-004](../08_Bundles/BUNDLE-004_SA_CCR_REVIEW.md)
 - [BUNDLE-005](../08_Bundles/BUNDLE-005_CVA_REVIEW.md)
 - [BUNDLE-006](../08_Bundles/BUNDLE-006_MARKET_RISK_STANDARDIZED_APPROACH_REVIEW.md)
+- [BUNDLE-007](../08_Bundles/BUNDLE-007_OPERATIONAL_RISK_REVIEW.md)
 
 ### Related Standards
 
@@ -55,6 +56,7 @@ Curated collection of external reference materials — papers, regulatory docume
 - `04_SA_CCR`
 - `05_CVA`
 - `06_Market_Risk_Standardized_Approach`
+- `07_Operational_Risk`
 
 ## Relationship with other folders
 | Folder | Relationship |

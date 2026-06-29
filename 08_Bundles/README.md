@@ -29,6 +29,9 @@
 - [BUNDLE-004](BUNDLE-004_SA_CCR_REVIEW.md)
 - [BUNDLE-005](BUNDLE-005_CVA_REVIEW.md)
 - [BUNDLE-006](BUNDLE-006_MARKET_RISK_STANDARDIZED_APPROACH_REVIEW.md)
+- [BUNDLE-007](BUNDLE-007_OPERATIONAL_RISK_REVIEW.md)
+
+
 
 ### Related Standards
 
@@ -53,6 +56,9 @@ Bundle review documents that certify the completion, traceability, and governanc
 - `BUNDLE-002_FRTB_REVIEW.md`
 - `BUNDLE-003_IFRS9_REVIEW.md`
 - `BUNDLE-004_SA_CCR_REVIEW.md`
+- `BUNDLE-005_CVA_REVIEW.md`
+- `BUNDLE-006_MARKET_RISK_STANDARDIZED_APPROACH_REVIEW.md`
+- `BUNDLE-007_OPERATIONAL_RISK_REVIEW.md`
 
 ## Relationship with other folders
 | Folder | Relationship |

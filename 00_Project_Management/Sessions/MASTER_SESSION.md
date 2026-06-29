@@ -6,74 +6,178 @@
 
 # Document Information
 
-| Item          | Value                                          |
-| ------------- | ---------------------------------------------- |
-| Document ID   | FRKP-SESSION-001                               |
-| Document Name | Master Session                                 |
-| Version       | 1.0.0                                          |
-| Status        | Active                                         |
-| Created       | 2026-06-28                                     |
-| Last Updated  | 2026-06-28                                     |
-| Purpose       | Current project status and AI session baseline |
+| Item          | Value                                                       |
+| ------------- | ----------------------------------------------------------- |
+| Document ID   | FRKP-SESSION-001                                            |
+| Document Name | Master Session                                              |
+| Version       | **1.1.0**                                                   |
+| Status        | Active                                                      |
+| Created       | 2026-06-28                                                  |
+| Last Updated  | 2026-06-28                                                  |
+| Purpose       | Project governance, current status, and AI session baseline |
 
 ---
 
 # 1. Project Overview
 
-Financial Risk Knowledge Platform (FRKP)는 금융 리스크 관리 전반에 대한 지식 플랫폼 구축 프로젝트이다.
+Financial Risk Knowledge Platform (FRKP)는 금융 리스크 관리 전반에 대한 지식 플랫폼(Publishing Platform) 구축 프로젝트이다.
 
-프로젝트의 목적은 금융 리스크 관련 규제, 이론, 수식, 구현, 아키텍처를 하나의 체계적인 Knowledge Platform으로 통합하는 것이다.
+프로젝트는 두 개의 상호 보완적인 Repository로 구성된다.
 
-GitHub Repository를 Source of Truth로 사용하며, ChatGPT와 Codex는 Repository를 기반으로 작업을 수행한다.
+## FRKC (Financial Risk Knowledge Corpus)
+
+Knowledge Repository
+
+Responsibilities
+
+* Knowledge Acquisition
+* Metadata
+* Semantic Extraction
+* Knowledge Graph
+* Canonical Vocabulary
+* Evidence Management
+* Publishing Mapping
+
+FRKC는 **Authoritative Knowledge Source**이다.
+
+---
+
+## FRKP (Financial Risk Knowledge Platform)
+
+Publishing Repository
+
+Responsibilities
+
+* Reference Library
+* Knowledge Base
+* Analysis
+* Formula Catalog
+* Mathematical Foundation
+* Implementation Guide
+* Architecture
+* Bundle Review
+
+FRKP는 **FRKC를 기반으로 출판되는 Knowledge Platform**이다.
 
 ---
 
 # 2. Repository Information
 
+## FRKP Repository
+
 | Item               | Value                               |
 | ------------------ | ----------------------------------- |
 | Repository         | https://github.com/kbgkim/frpk      |
 | Default Branch     | main                                |
-| Current Version    | 1.0.0                               |
-| Repository Status  | Frozen Baseline                     |
+| Development Branch | develop                             |
+| Current Version    | 1.1.0 (Development)                 |
+| Stable Version     | 1.0.0                               |
+| Repository Status  | Development                         |
 | Publication Status | PUBLICATION READY WITH OBSERVATIONS |
 
 ---
 
-# 3. Current Milestone
+## FRKC Repository
 
-## Current Phase
+| Item            | Value                                    |
+| --------------- | ---------------------------------------- |
+| Repository      | https://github.com/kbgkim/frkp-knowledge |
+| Current Version | 0.1                                      |
+| Certification   | CERTIFIED WITH OBSERVATIONS              |
+| Role            | Knowledge Corpus                         |
+
+---
+
+# 3. Development Philosophy
+
+The platform follows these principles.
+
+* Knowledge First
+* Evidence First
+* Publishing Second
+* AI Assisted
+* Human Approved
+* Repository First
+* Documentation First
+* Immutable Document IDs
+* Bundle-based Development
+* Cross-reference Consistency
+* Markdown Native
+* Git Version Controlled
+
+---
+
+# 4. Repository Workflow
+
+```text
+Original Source Documents
+        │
+        ▼
+FRKC
+(Knowledge Corpus)
+        │
+Metadata
+Semantic
+Knowledge Graph
+Canonical
+Evidence
+Publishing Mapping
+        │
+        ▼
+FRKP
+(Publishing Platform)
+        │
+Reference Library
+Knowledge Base
+Analysis
+Formula Catalog
+Mathematical Foundation
+Implementation Guide
+Architecture
+Bundle Review
+        │
+        ▼
+Published Knowledge
+```
+
+---
+
+# 5. Current Milestone
+
+Current Phase
 
 Knowledge Expansion
 
-## Current Version
+Current Version
 
-Version 1.1 (Planning)
+FRKP Version 1.1
 
-## Current Bundle
+Current Bundle
 
 Bundle-007
 
 Operational Risk
 
----
+Publishing Method
 
-# 4. Completed Bundles
-
-| Bundle                                         | Status   |
-| ---------------------------------------------- | -------- |
-| Bundle-001 — Basel III                         | Complete |
-| Bundle-002 — FRTB                              | Complete |
-| Bundle-003 — IFRS 9                            | Complete |
-| Bundle-004 — SA-CCR                            | Complete |
-| Bundle-005 — CVA                               | Complete |
-| Bundle-006 — Market Risk Standardized Approach | Complete |
+Evidence-driven Publishing
 
 ---
 
-# 5. Repository Layers
+# 6. Completed Bundles
 
-The repository is organized into the following layers.
+* Bundle-001 — Basel III
+* Bundle-002 — FRTB
+* Bundle-003 — IFRS 9
+* Bundle-004 — SA-CCR
+* Bundle-005 — CVA
+* Bundle-006 — Market Risk Standardized Approach
+
+Status: Complete
+
+---
+
+# 7. Repository Layers
 
 1. Reference Library
 2. Knowledge Base
@@ -86,9 +190,9 @@ The repository is organized into the following layers.
 
 ---
 
-# 6. Repository Standards
+# 8. Repository Standards
 
-The following standards are mandatory for all new documents.
+Mandatory standards
 
 * FRKP-DOC-001
 * FRKP-ID-001
@@ -100,45 +204,61 @@ The following standards are mandatory for all new documents.
 * FRKP-ABBR-001
 * FRKP-SYM-001
 
----
+Publishing Standards
 
-# 7. Naming Rules
+* FRKP-FRKC-001 Evidence-Driven Publishing Workflow
 
-Every document shall follow the naming convention:
+Knowledge Governance
 
-```text
-<ID>_<DOCUMENT_NAME>.md
-```
-
-Examples:
-
-```text
-RL-170_OPERATIONAL_RISK_OVERVIEW.md
-KB-271_OPERATIONAL_RISK_FRAMEWORK.md
-FC-471_OPERATIONAL_RISK_CAPITAL.md
-ARCH-771_OPERATIONAL_RISK_ARCHITECTURE.md
-```
+* FRKC-ARCH-001 Knowledge Corpus Architecture
+* FRKC-AI-001 AI Collaboration Principles
 
 ---
 
-# 8. Working Principles
+# 9. AI Collaboration
 
-All future work shall comply with the following principles.
+## Codex
 
-* Technology Neutral
-* Repository First
-* Documentation First
-* Immutable Document IDs
-* Bundle-based Development
-* Cross-reference Consistency
-* Markdown Native
-* Git Version Controlled
+Repository-wide automation
+
+* Metadata
+* Semantic Processing
+* Evidence
+* Mapping
+* Validation
+* Reporting
 
 ---
 
-# 9. Current Repository Status
+## ChatGPT
 
-Completed:
+Knowledge Editorial Layer
+
+Responsibilities
+
+* Technical explanation
+* Educational quality
+* Logical consistency
+* Architecture reasoning
+* Documentation refinement
+* Domain interpretation
+
+---
+
+## Human Reviewer
+
+Responsibilities
+
+* Technical approval
+* Release approval
+* Bundle Freeze
+* Governance decisions
+
+---
+
+# 10. Current Repository Status
+
+Completed
 
 * Repository Structure
 * Governance
@@ -150,103 +270,145 @@ Completed:
 * Publication Validation
 * Version 1.0 Freeze
 * GitHub Publication
+* FRKC Knowledge Corpus v0.1
+* Evidence Engine
+* Publishing Mapping
 
-Pending:
+Pending
 
 * Bundle-007
 * Bundle-008
-* Additional Formula Catalog
-* AI Knowledge Layer
-* Regulatory Mapping
-* Knowledge Graph Expansion
+* Operational Risk Expansion
+* Incremental Knowledge Growth
 
 ---
 
-# 10. Current Priority
+# 11. Current Priority
 
 Priority 1
 
 Bundle-007 — Operational Risk
 
-Recommended document order:
+Recommended publication order
 
 1. RL-170_OPERATIONAL_RISK_OVERVIEW
 2. KB-271_OPERATIONAL_RISK_FRAMEWORK
 3. KB-272_STANDARDIZED_MEASUREMENT_APPROACH
 4. AN-271_WHY_OPERATIONAL_RISK_CAPITAL_CHANGED
-5. FC-471_OPERATIONAL_RISK_CAPITAL
-6. MF-471_OPERATIONAL_RISK_LOSS_DISTRIBUTION
+5. MF-471_OPERATIONAL_RISK_LOSS_DISTRIBUTION
+6. FC-471_OPERATIONAL_RISK_CAPITAL
 7. IMP-471_OPERATIONAL_RISK_IMPLEMENTATION
 8. ARCH-771_OPERATIONAL_RISK_ARCHITECTURE
 9. BUNDLE-007_OPERATIONAL_RISK_REVIEW
 
----
-
-# 11. AI Session Rules
-
-When starting a new ChatGPT or Codex session:
-
-1. Read this document first.
-2. Use the GitHub repository as the authoritative source.
-3. Preserve all existing document IDs.
-4. Follow all FRKP standards.
-5. Do not rename published documents.
-6. Extend the repository incrementally.
-7. Keep backward compatibility with Version 1.0.
+All new documents should be generated from FRKC Evidence whenever available.
 
 ---
 
-# 12. Release Baseline
+# 12. AI Session Rules
 
-Current stable release:
+Every new ChatGPT or Codex session shall:
+
+1. Read FRKP-002_AI_OPERATING_MODEL.md.
+2. Read MASTER_SESSION.md.
+3. Read PROJECT_STATE.md.
+4. Read AI_SESSION_HANDOFF.md.
+5. Read BOOTSTRAP_CODEX.md for Codex sessions or BOOTSTRAP_CHATGPT.md for ChatGPT sessions.
+6. Verify Git branch.
+7. Verify repository status.
+8. Follow FRKP-FRKC-001 Evidence-Driven Publishing Workflow.
+9. Retrieve FRKC evidence before creating new FRKP documents.
+10. Preserve existing document IDs.
+11. Preserve navigation.
+12. Follow FRKP standards.
+13. Follow FRKC governance.
+14. Use Evidence-driven Publishing whenever possible.
+15. Keep backward compatibility with Version 1.0.
+
+---
+
+# 13. Release Baselines
+
+FRKP
+
+* Version 1.0 Released
+* Version 1.1 Development
+
+FRKC
+
+* Version 0.1 Certified
+
+Compatibility
 
 ```text
-Version 1.0.0
+FRKC v0.1
+        │
+        ▼
+FRKP v1.1
 ```
 
-Supporting documents:
-
-* FRKP Version 1.0 Freeze Certificate
-* FRKP Release Notes v1.0
-* CHANGELOG.md
-
 ---
 
-# 13. Next Session Checklist
+# 14. Next Session Checklist
 
-Before beginning new work:
+Before beginning work
 
-* Pull the latest GitHub repository.
+* Pull latest FRKP repository.
+* Pull latest FRKC repository.
+* Read FRKP-002_AI_OPERATING_MODEL.md.
 * Read MASTER_SESSION.md.
-* Read SESSION_BOOTSTRAP.md.
-* Review the current roadmap.
-* Confirm the current bundle.
-* Verify document numbering.
-* Begin work only after confirming repository consistency.
-
+* Read PROJECT_STATE.md.
+* Read AI_SESSION_HANDOFF.md.
+* Read BOOTSTRAP_CODEX.md or BOOTSTRAP_CHATGPT.md.
+* Verify publishing mapping.
+* Verify evidence availability.
+* Continue from Next Tasks.
+* Review FRKP-FRKC-001 workflow.
+* Confirm current feature branch.
+* Confirm required FRKC evidence is available.
+* Review FRKP-FRKC-001 workflow.
+* Continue from Next Tasks
+최
 ---
 
-# 14. Future Roadmap
+# 15. Future Roadmap
 
-Version 1.1
+FRKP Version 1.1
 
 * Bundle-007 — Operational Risk
 
-Version 1.2
+FRKP Version 1.2
 
 * Bundle-008 — Liquidity Risk
 
-Version 2.0
+Long-term
 
-* AI Knowledge Layer
-* Machine-readable Formula Catalog
+* Evidence-driven Publishing
+* Incremental Knowledge Updates
 * Regulatory Traceability
+* AI-assisted Publishing
+* Machine-readable Formula Catalog
 * Knowledge Graph Automation
 
 ---
 
-# 15. Revision History
+# 16. Operating Principle
 
-| Version | Date       | Description            |
-| ------- | ---------- | ---------------------- |
-| 1.0.0   | 2026-06-28 | Initial Master Session |
+The platform follows one fundamental principle.
+
+> **Knowledge grows in FRKC.
+> Documents grow in FRKP.
+> Evidence precedes publication.**
+
+FRKC manages authoritative knowledge.
+
+FRKP publishes knowledge derived from FRKC.
+
+---
+
+# 17. Revision History
+
+| Version   | Date       | Description                                                                                  |
+| --------- | ---------- | -------------------------------------------------------------------------------------------- |
+| 1.0.0     | 2026-06-28 | Initial Master Session                                                                       |
+| **1.1.0** | 2026-06-28 | Added FRKC integration, Evidence-driven Publishing, AI Collaboration, and unified governance |

@@ -60,31 +60,13 @@ GitHub is the official source of truth.
 
 Before performing any work, review the following documents in order.
 
-1.
+1. 00_Project_Management/Governance/FRKP-002_AI_OPERATING_MODEL.md
+2. 00_Project_Management/Sessions/MASTER_SESSION.md
+3. 00_Project_Management/Sessions/PROJECT_STATE.md
+4. 00_Project_Management/Sessions/AI_SESSION_HANDOFF.md
+5. 00_Project_Management/Sessions/BOOTSTRAP_CODEX.md for Codex sessions, or 00_Project_Management/Sessions/BOOTSTRAP_CHATGPT.md for ChatGPT sessions.
 
-```text
-MASTER_SESSION.md
-```
-
-2.
-
-```text
-SESSION_BOOTSTRAP.md
-```
-
-3.
-
-```text
-FRKP_CONTEXT.md
-```
-
-4.
-
-```text
-SESSION_HISTORY.md
-```
-
-These four documents define the complete operating context.
+These documents define the durable operating context.
 
 ---
 
@@ -174,7 +156,10 @@ Before starting work:
 
 * Pull latest repository.
 * Confirm Version.
+* Read FRKP-002_AI_OPERATING_MODEL.md.
 * Read MASTER_SESSION.
+* Read PROJECT_STATE.md.
+* Read the appropriate bootstrap document.
 * Review current roadmap.
 * Confirm target bundle.
 * Review existing related documents.
@@ -257,10 +242,11 @@ Current Version:
 
 Read the following documents before beginning work:
 
+- FRKP-002_AI_OPERATING_MODEL.md
 - MASTER_SESSION.md
-- SESSION_BOOTSTRAP.md
-- FRKP_CONTEXT.md
-- SESSION_HISTORY.md
+- PROJECT_STATE.md
+- AI_SESSION_HANDOFF.md
+- BOOTSTRAP_CODEX.md or BOOTSTRAP_CHATGPT.md
 
 Use GitHub as the authoritative repository.
 
@@ -287,6 +273,16 @@ The objective of FRKP is to become a comprehensive AI-ready Financial Risk Knowl
 * Machine-readable Knowledge
 
 Every development session should contribute toward this long-term vision.
+
+## AI Operating Principles
+
+This project follows the governance defined in:
+
+FRKC Repository
+
+GOVERNANCE/FRKC-AI-001_AI_COLLABORATION_PRINCIPLES.md
+
+When conflicts occur, the FRKC governance document takes precedence.
 
 ---
 
